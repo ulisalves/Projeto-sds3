@@ -33,7 +33,7 @@ public class SaleDTO {
 		deals = entity.getDeals();
 		amount = entity.getAmount();
 		date = entity.getDate();
-		seller = new SellerDTO(entity.getSeler());
+		seller = new SellerDTO(entity.getSeller());
 	}
 
 	public Long getId() {
